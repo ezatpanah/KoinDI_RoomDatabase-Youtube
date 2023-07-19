@@ -52,7 +52,7 @@ class AddNoteFragment : BottomSheetDialogFragment() {
                 noteDesc = edtDesc.text.toString()
 
                 if (noteTitle.isEmpty() || noteDesc.isEmpty()) {
-                    Snackbar.make(it, "Name and Phone cannot be Empty!", Snackbar.LENGTH_SHORT)
+                    Snackbar.make(it, "Title and Description cannot be Empty!", Snackbar.LENGTH_SHORT)
                         .show()
                 } else {
 
