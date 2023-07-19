@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">KoinDI_RoomDatabase-Youtube</string>
+    <string name="there_is_no_note">There is no Note!! :(</string>
+    <string name="contentdescfab">contentDescFAB</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_your_note">Add your Note :</string>
 </resources>
