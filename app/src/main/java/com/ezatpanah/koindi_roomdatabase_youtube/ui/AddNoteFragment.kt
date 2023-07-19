@@ -10,6 +10,7 @@ import com.ezatpanah.koindi_roomdatabase_youtube.databinding.FragmentAddNoteBind
 import com.ezatpanah.koindi_roomdatabase_youtube.db.NoteEntity
 import com.ezatpanah.koindi_roomdatabase_youtube.viewmodel.DatabaseViewModel
 import com.google.android.material.bottomsheet.BottomSheetBehavior
+import com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_EXPANDED
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.google.android.material.snackbar.Snackbar
@@ -39,6 +40,7 @@ class AddNoteFragment : BottomSheetDialogFragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        (dialog as? BottomSheetDialog)?.behavior?.state = STATE_EXPANDED
 
 
         binding?.apply {
@@ -68,21 +70,6 @@ class AddNoteFragment : BottomSheetDialogFragment() {
             }
         }
 
-    }
-
-    override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
-        val dialog = BottomSheetDialog(requireContext(), theme)
-        dialog.setOnShowListener { dialog ->
-
-            val bottomSheetDialog = dialog as BottomSheetDialog
-            val parentLayout =
-                bottomSheetDialog.findViewById<View>(com.google.android.material.R.id.design_bottom_sheet)
-            parentLayout?.let {
-                val behaviour = BottomSheetBehavior.from(it)
-                behaviour.state = BottomSheetBehavior.STATE_EXPANDED
-            }
-        }
-        return dialog
     }
 
     override fun onStop() {
