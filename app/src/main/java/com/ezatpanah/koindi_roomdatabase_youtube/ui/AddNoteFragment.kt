@@ -72,8 +72,8 @@ class AddNoteFragment : BottomSheetDialogFragment() {
 
     }
 
-    override fun onStop() {
-        super.onStop()
+    override fun onDestroyView() {
+        super.onDestroyView()
         _binding = null
     }
 
