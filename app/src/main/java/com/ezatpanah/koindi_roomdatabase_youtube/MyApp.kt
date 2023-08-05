@@ -10,6 +10,8 @@ class MyApp : Application() {
     override fun onCreate() {
         super.onCreate()
         startKoin {
+            /** Context **/
+            androidContext(this@MyApp)
             /** Room Database **/
             modules(databaseModule)
         }
