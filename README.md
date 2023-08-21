@@ -17,6 +17,9 @@ Part2:
 <br> 
 Article on Medium:
 <br>
+Part 1:
+<br>
+https://androidgeek.co/part1-how-to-use-koin-di-with-room-database-in-kotlin-436023ac5572
 <br>
 <br>
 
