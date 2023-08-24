@@ -11,7 +11,7 @@ Part1:
 <br>
 Part2:
 <br>
-<a href="" target="_blank"><img alt="Ezatpanah KoinDI_RoomDatabase-Youtube" src="part2_koin_roomdatabase.jpg" width="60%"></a>
+<a href="https://youtu.be/d8PjHk8ZSc4" target="_blank"><img alt="Ezatpanah KoinDI_RoomDatabase-Youtube" src="part2_koin_roomdatabase.jpg" width="60%"></a>
 
 <br> 
 <br> 
