@@ -21,8 +21,11 @@ Part 1:
 <br>
 https://androidgeek.co/part1-how-to-use-koin-di-with-room-database-in-kotlin-436023ac5572
 <br>
+Part 2 :
 <br>
-
+https://androidgeek.co/part2-how-to-use-koin-di-with-room-database-in-kotlin-3a9f69a58c6a
+<br>
+<br>
 ✨ Join Medium to read thousands of valuable stories ✨
 <br>
 https://medium.com/@ezatpanah/membership
